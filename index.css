@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:800px) {
+    .what, .what_1{
+        text-align: center!important;
+    }
+    .happy_1{
+        display: none;
+    }
+    .noma{
+        width: 50%;
+    }
+    .hanna{
+        margin-left: 0!important;
+    }
+    .ha, .nja{
+        display: flex;
+        justify-content: center!important;
+    }
+    .res{
+        height: 200vh!important;
+    }
+}
+.hanna{
+    margin-left: 70px;
+}
+.kal:hover{
+   color: blue;
+   cursor: pointer;
+   transition: all 1s;
+}
